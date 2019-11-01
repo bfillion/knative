@@ -14,6 +14,10 @@ Tutorial on how to build and deploy a `KafkaSource` [Eventing source](../../../s
 
 You must ensure that you meet the [prerequisites listed in the Apache Kafka overview](../README.md).
 
+Il faut également installer le Istio cluster-local-gateway pour que le évènements lèvent!!
+
+Voir : https://github.com/knative/serving/tree/master/third_party/istio-1.3.3
+
 ## Creating a `KafkaSource` source CRD
 
 1. Install the `KafkaSource` sub-component to your Knative cluster:
